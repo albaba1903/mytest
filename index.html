@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/cavs.js"></script>
+    </head>
+    <style type="text/css">
+        canvas{border:dashed 2px #CCC}
+    </style>
+    <script type="text/javascript">
+        function pageLoad(){
+		    canvas_4("canvas_4");
+			canvas_3("canvas_3");
+			//canvas_2("canvas_2");
+		    //canvas_1("canvas_1");
+        }
+		function downPic() {
+			var can = document.getElementById("canvas_4");
+        	var strDataURI = can.toDataURL("image/jpeg", 0.5);
+			console.log(strDataURI);
+		}
+    </script>
+    <body onload="pageLoad();">
+		<button onclick="downPic();">下载</button><br/>
+     	<canvas id="canvas_4" width="700" height="1200">4</canvas>
+		
+		<canvas id="canvas_3" width="700" height="1200">3</canvas>
+		<canvas id="canvas_2" width="600" height="600">2</canvas>
+		<canvas id="canvas_1" width="600" height="600">1</canvas>
+    </body>
+</html>
