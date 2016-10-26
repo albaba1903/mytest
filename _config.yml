@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://webjeda.com'
-baseurl: '/' #change it according to your repository name
+baseurl: '/mytest' #change it according to your repository name
 
 
 # Enable one of these styles by removing #
