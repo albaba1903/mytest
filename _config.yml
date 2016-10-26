@@ -15,7 +15,7 @@ baseurl: '/mytest' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
+name: Cristo Geng
 tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
