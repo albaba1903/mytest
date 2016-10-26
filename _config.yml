@@ -1,5 +1,5 @@
 
-title: My Resume
+title: Cristo's Blog
 url: 'http://www.glphp.com'
 baseurl: '/mytest' #change it according to your repository name
 
@@ -20,10 +20,10 @@ tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: alan.doe@website.com
+email: cristo.geng@nplusgroup.com
 phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: alandoe
-twitter: '@twittername'
+website: www.glphp.com #do not add http://
+linkedin: cristo
+github: albaba1903
+twitter: '@cristo.geng'
 
